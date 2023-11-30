@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def firstView(request):
-    data ={'name':'Riyaz','age':23}
+    data = {"name":'priya'}
     return render(request,'login.html',data)
 
 def secondView(request):
