@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-((+409q(59v-#kp-rnb6e*2!y4&)qfj1kze3)s4&rt9u90@&s@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -43,7 +43,7 @@ ROOT_URLCONF = 'mini.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'templetes')],
+        'DIRS': [os.path.join()],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
